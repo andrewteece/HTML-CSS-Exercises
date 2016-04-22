@@ -1,0 +1,15 @@
+.container. .row {
+	display: table;
+	content: "";
+}
+
+.row:after {
+	clear: both;
+}
+
+.col-1, .col-2, .col-3 {
+	float: left;
+	width: 25%;
+	margin: 1%;
+	padding: 1%;
+}
